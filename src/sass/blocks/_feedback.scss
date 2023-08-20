@@ -1,0 +1,37 @@
+
+.feedback {
+    
+    .title {
+        margin-bottom: 60px;
+    }
+    &__client {
+        display: flex;
+        margin-bottom: 60px;
+        img {
+            height: 169px;
+            width: 169px;
+            margin-right: 60px;
+        }
+        div {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 24px;
+            align-items: flex-end;
+            color: #0D0D0D;
+        }
+        h3 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+            align-items: flex-end;
+            color: #0D0D0D;
+        }
+        h4 {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            align-items: flex-end;
+            color: #646464;
+        }
+    }
+}
